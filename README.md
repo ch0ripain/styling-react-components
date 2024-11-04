@@ -42,7 +42,9 @@ Define your styles in Header.module.css like this:
 ```
 
 Then, in your Header.jsx file, import the styles as an object:
+```javascript
 import classes from './Header.module.css';
+```
 
 Finally, use dot notation to access the styles you want:
 ```javascript
