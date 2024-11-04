@@ -27,7 +27,7 @@ html {
 ```
 🌟 This method is straightforward and requires no additional dependencies!
 
-How to Use Modular CSS
+### How to Use Modular CSS
 For Modular CSS, create a CSS file for the component you want to style. 
 For instance, if you have a Header component, you would create a file named Header.module.css. 
 The .module suffix signals the underlying build process of React to scope the styles locally. 🎨
@@ -50,7 +50,42 @@ Finally, use dot notation to access the styles you want:
 ```
 Any remaining styles that use element selectors will be applied automatically. 🖌️
 
-How to Use Tailwind CSS
+### How to Use Styled Components
+The first step is to install the Styled Components package. You can do this by running the following command:
+```bash
+npm install styled-components
+```
+Once installed, you can create your styled components by importing the styled object from the package. 
+The styled object is a utility that allows you to define your components with styles attached directly to them. 🎨
+
+Here’s how to create a styled component:
+```javascript
+import { styled } from 'styled-components';
+
+const Label = styled.label`
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+`;
+```
+You can also add dynamic styles using the ${} syntax, which allows you to interpolate JavaScript expressions within your styled component definitions.
+```javascript
+color: ${({ $invalid }) => ($invalid ? "#f87171" : "#6b7280")}; // Dynamic color based on the $invalid prop
+```
+In this function, we destructure the $invalid prop, since styled components automatically forward all defined props. 
+This means you can use props.invalid as well. 
+We check the value of $invalid using a ternary expression to define the color based on its value. 
+
+Finally, you can use your styled component just like any React component or HTML element:
+```javascript
+<Label $invalid={invalid}>Email</Label>
+```
+The $ symbol is used to avoid naming clashes with other props.
+
+### How to Use Tailwind CSS
 For Tailwind CSS, I highly recommend checking out the official documentation and practicing to get comfortable with it! You can find it here: Tailwind CSS Docs. 🚀
 
 With Tailwind, you can use utility classes directly in your JSX:
