@@ -29,7 +29,7 @@ html {
 
 ### How to Use Modular CSS
 For Modular CSS, create a CSS file for the component you want to style. 
-For instance, if you have a Header component, you would create a file named Header.module.css. 
+For instance, if you have a Header component, you would create a file named Header.module.css.\
  [!NOTE]  
  The .module suffix signals the underlying build process of React to scope the styles locally. 🎨
 
