@@ -30,7 +30,7 @@ html {
 ### How to Use Modular CSS
 For Modular CSS, create a CSS file for the component you want to style. 
 For instance, if you have a Header component, you would create a file named Header.module.css. 
-The .module suffix signals the underlying build process of React to scope the styles locally. 🎨
+ [!NOTE]  The .module suffix signals the underlying build process of React to scope the styles locally. 🎨
 
 Define your styles in Header.module.css like this:
 ```css
@@ -88,7 +88,7 @@ Finally, you can use your styled component just like any React component or HTML
 The $ symbol is used to avoid naming clashes with other props.
 
 ### How to Use Tailwind CSS
-For Tailwind CSS, I highly recommend checking out the official documentation and practicing to get comfortable with it! You can find it here: Tailwind CSS Docs. 🚀
+For Tailwind CSS, I highly recommend checking out the official documentation and practicing to get comfortable with it! You can find it here: [Tailwind CSS Docs](https://tailwindcss.com/docs/guides/vite). 🚀
 
 With Tailwind, you can use utility classes directly in your JSX:
 ```javascript
