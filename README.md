@@ -1,4 +1,4 @@
-### ⚛️ Styling React Components ⚛️
+### ⚛️ Styling React Components - Simple Guide ⚛️
 
 This project explores different approaches to styling React components, including Native CSS, Modular CSS, Styled Components (third-party package), and Tailwind CSS. 🎨✨ 
 Each method offers unique benefits and disadvantages that cater to different development needs. Let's dive in! 🚀
