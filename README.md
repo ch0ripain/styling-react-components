@@ -30,7 +30,7 @@ html {
 ### How to Use Modular CSS
 For Modular CSS, create a CSS file for the component you want to style. 
 For instance, if you have a Header component, you would create a file named Header.module.css.
-> [!TIP]  
+> [!NOTE]  
 > The .module suffix signals the underlying build process of React to scope the styles locally. 🎨
 
 Define your styles in Header.module.css like this:
@@ -49,7 +49,7 @@ Finally, use dot notation to access the styles you want:
 ```javascript
 <p className={classes.paragraph}>A community of artists and art-lovers. 🎉</p>
 ```
-> [!TIP]  
+> [!NOTE]  
 > Any remaining styles that use element selectors will be applied automatically. 🖌️
 
 ### How to Use Styled Components
@@ -58,7 +58,7 @@ The first step is to install the Styled Components package. You can do this by r
 npm install styled-components
 ```
 Once installed, you can create your styled components by importing the styled object from the package. 
-> [!TIP]
+> [!NOTE]
 > The styled object is a utility that allows you to define your components with styles attached directly to them. 🎨
 
 Here’s how to create a styled component:
@@ -86,7 +86,7 @@ Finally, you can use your styled component just like any React component or HTML
 ```javascript
 <Label $invalid={invalid}>Email</Label>
 ```
-> [!TIP]
+> [!NOTE]
 > The $ symbol is used to avoid naming clashes with other props.
 
 ### How to Use Tailwind CSS
