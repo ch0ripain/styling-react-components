@@ -99,5 +99,6 @@ With Tailwind, you can use utility classes directly in your JSX:
 </div>
 ```
 ---
-<p align="center">This project is a practice exercise I learned from the <a href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=ST7MT110524'>Academind's React Course</a> - I hope this helps u 🐸</p>
+<p align="center">🌟 This project is a practice exercise I learned from the <a href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=ST7MT110524'>Academind's React Course</a> 🌟</p>
+<p align="center">🐸 I hope this helps you in some way! 🐸</p>
 
