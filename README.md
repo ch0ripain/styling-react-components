@@ -98,6 +98,6 @@ With Tailwind, you can use utility classes directly in your JSX:
   <p>A community of artists and art-lovers. 🎨</p>
 </div>
 ```
-
+---
 <p align="center">I hope this helps u 🐸</p>
 
