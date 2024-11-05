@@ -99,4 +99,5 @@ With Tailwind, you can use utility classes directly in your JSX:
 </div>
 ```
 
-I hope this help u 🐸
+<p align="center">I hope this helps u 🐸</p>
+
