@@ -1,4 +1,4 @@
-### ⚛️ Styling React Components - Simple Guide ⚛️
+<h1 align="center"> ⚛️ Styling React Components - Simple Guide ⚛️</h1>
 
 This project explores different approaches to styling React components, including Native CSS, Modular CSS, Styled Components (third-party package), and Tailwind CSS. 🎨✨ 
 Each method offers unique benefits and disadvantages that cater to different development needs. Let's dive in! 🚀
@@ -99,6 +99,5 @@ With Tailwind, you can use utility classes directly in your JSX:
 </div>
 ```
 ---
-<p align="center">🌟 This project is a practice exercise I learned from the <a href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=ST7MT110524'>Academind's React Course</a> 🌟</p>
-<p align="center">🐸 I hope this README helps you in some way! 🐸</p>
+<p align="center">🐸 This project is a practice exercise I learned from the <a href='https://www.udemy.com/course/react-the-complete-guide-incl-redux/?couponCode=ST7MT110524'>Academind's React Course</a> 🐸</p>
 
